@@ -620,86 +620,33 @@ html.cn .testimonial-quote {
   background: #EFF6FF;
 }
 
-.contact-grid {
-  display: grid;
-  grid-template-columns: 5fr 6fr;
-  gap: 64px;
-  align-items: start;
+.contact-simple {
+  max-width: 560px;
 }
 
-.contact-text h2 {
+.contact-simple h2 {
   margin-bottom: 16px;
 }
 
-.contact-text > p {
+.contact-simple > p {
   font-size: 1.0625rem;
   line-height: 1.75;
-  margin-bottom: 28px;
+  margin-bottom: 32px;
 }
 
-.contact-alt {
-  margin-top: 20px;
-  font-size: 0.875rem;
+.contact-simple .btn-primary {
+  margin-bottom: 16px;
+}
+
+.contact-email {
+  font-size: 0.9375rem;
   color: #52525B;
 }
 
-.contact-alt a {
-  color: #1D4ED8;
-  font-weight: 500;
-}
-
-.contact-alt a:hover {
-  text-decoration: underline;
-}
-
-.contact-form {
-  display: flex;
-  flex-direction: column;
-  gap: 18px;
-}
-
-.form-row {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 18px;
-}
-
-.form-field label {
-  display: block;
+.contact-address {
   font-size: 0.875rem;
-  font-weight: 500;
-  color: #18181B;
-  margin-bottom: 6px;
-}
-
-.form-field input,
-.form-field textarea {
-  width: 100%;
-  padding: 10px 14px;
-  border: 1px solid #CBD5E1;
-  border-radius: 6px;
-  font-family: inherit;
-  font-size: 0.9375rem;
-  color: #18181B;
-  background: #fff;
-  transition: border-color 0.2s;
-  line-height: 1.5;
-}
-
-.form-field input:focus,
-.form-field textarea:focus {
-  outline: none;
-  border-color: #1D4ED8;
-  box-shadow: 0 0 0 3px rgba(29,78,216,0.08);
-}
-
-.form-field textarea {
-  min-height: 120px;
-  resize: vertical;
-}
-
-.form-submit {
-  padding-top: 4px;
+  color: #71717A;
+  margin-top: 4px;
 }
 
 
@@ -771,10 +718,6 @@ html.cn .testimonial-quote {
     gap: 48px;
   }
 
-  .contact-grid {
-    grid-template-columns: 1fr;
-    gap: 40px;
-  }
 }
 
 @media (max-width: 768px) {
@@ -824,10 +767,6 @@ html.cn .testimonial-quote {
     flex-direction: column;
     gap: 8px;
     text-align: center;
-  }
-
-  .form-row {
-    grid-template-columns: 1fr;
   }
 
   .case-more {

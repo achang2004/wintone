@@ -125,25 +125,4 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 
 
-  // --- Simple form handler (mailto fallback) ---
-  var form = document.getElementById('contact-form');
-  if (form) {
-    form.addEventListener('submit', function (e) {
-      e.preventDefault();
-      var name = form.querySelector('[name="name"]').value;
-      var email = form.querySelector('[name="email"]').value;
-      var company = form.querySelector('[name="company"]').value;
-      var message = form.querySelector('[name="message"]').value;
-
-      var subject = encodeURIComponent('Inquiry from ' + name + ' - ' + company);
-      var body = encodeURIComponent(
-        'Name: ' + name + '\n' +
-        'Email: ' + email + '\n' +
-        'Company: ' + company + '\n\n' +
-        message
-      );
-      window.location.href = 'mailto:info@wintone.co?subject=' + subject + '&body=' + body;
-    });
-  }
-
 });
