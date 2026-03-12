@@ -297,6 +297,11 @@ h3 {
   transition: opacity 0.2s;
 }
 
+.retailer-logo--square {
+  height: 44px;
+  max-height: 44px;
+}
+
 .retailer-logo:hover {
   opacity: 0.8;
 }
