@@ -120,7 +120,7 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 
   document.querySelectorAll('.marquee-track').forEach(function (track) {
-    var speed = parseFloat(track.dataset.speed) || 0.5;
+    var speed = parseFloat(track.dataset.speed) || (window.innerWidth <= 768 ? 0.5 : 0.25);
     startMarquee(track, speed);
   });
 

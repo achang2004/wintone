@@ -871,6 +871,26 @@ html.cn .testimonial-quote {
     flex-direction: column;
     gap: 8px;
   }
+
+  .retailer-strip {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px 0;
+    gap: 14px;
+  }
+
+  .strip-label {
+    border-right: none;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  .marquee-track-wrap {
+    width: 100%;
+    mask-image: none;
+    -webkit-mask-image: none;
+  }
 }
 
 @media (max-width: 480px) {
