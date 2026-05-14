@@ -327,7 +327,7 @@ h3 {
 /* --- Retailer Strip (Marquee) --- */
 
 .retailer-strip {
-  background: #F8F8F8;
+  background: #fff;
   border-top: 1px solid #EBEBEB;
   border-bottom: 1px solid #EBEBEB;
   padding: 24px 0;
@@ -389,7 +389,7 @@ h3 {
 
 .services {
   padding: 120px 0;
-  background: #FAFAF8;
+  background: #fff;
 }
 
 .services-intro {
@@ -595,7 +595,7 @@ html.cn .case-item-title {
 
 .about {
   padding: 120px 0;
-  background: #FAFAF8;
+  background: #fff;
 }
 
 .about-grid {
